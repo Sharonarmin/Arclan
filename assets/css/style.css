@@ -1,0 +1,432 @@
+:root {
+  --white-col: #fff;
+  --black-col: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Century Gothic;
+  src: url('../fonts/Century\ Gothic.ttf') format('truetype');
+
+
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+
+
+}
+
+.panel {
+  width: 100%;
+  height: 100%;
+  background-color: var(--white-col);
+  border-top: 1px solid #dad6d6ad;
+
+}
+
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.hero-section .hero-head {
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 700;
+}
+
+
+/* arclan navbar */
+
+
+.arclanNavbar {
+  border-bottom: 1px solid #dad6d6ad;
+  z-index: 999;
+  transition: top 0.3s ease;
+}
+
+.navbar-brand {
+  position: absolute;
+  margin-top: 60px;
+}
+
+.navbar-brand img {
+  width: 60px;
+}
+
+.hamburger-img {
+  width: 50px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-box {
+  position: absolute;
+  width: 100%;
+  padding: 10px 0px;
+  z-index: 11;
+  top: 0;
+}
+
+.stickyNavbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  transition: top 0.3s ease;
+  background-color: var(--white-col);
+  border-bottom: 1px solid #dad6d6ad;
+}
+
+.arclanNavbar .nav-link {
+  font-size: 15px;
+  color: var(--black-col)
+}
+
+/* projects section */
+
+.hp-project-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-padding {
+  padding: 14%;
+}
+
+.latest-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.latest-projects img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-details-bottom {
+  background-color: var(--white-col);
+  padding: 7px 30px;
+  position: absolute;
+  bottom: -60px;
+  width: 98%;
+  transition: all .5s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  transition: all .3s ease-in-out;
+}
+
+
+
+.latest-projects:hover .project-details-bottom {
+  bottom: 10px;
+}
+
+
+
+.project-details-bottom .client-name,
+.place,
+.type-work {
+  font-size: 15px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+
+/* service section */
+
+.hp-service-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-section {
+  background-color: #fff !important;
+  height: 100vh;
+  z-index: 1111;
+}
+
+.hp-service-box {
+  padding: 10px 5px 0px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+}
+
+.service-dtls-box {
+  position: absolute;
+  bottom: -125px;
+  width: 92%;
+  padding: 10px 15px;
+  background: var(--white-col);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  transition: all .6s ease-in-out;
+}
+
+.service-dtls-box h4 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.service-dtls-box img {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.hp-service-box:hover .service-dtls-box {
+  bottom: 15px;
+}
+
+
+/* home contact section */
+
+.hp-contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: var(--white-col);
+}
+
+.hp-contact-section h2 {
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.hp-contact-left {
+  padding-right: 10px;
+}
+
+.hp-contact-left p {
+  margin: 15px 0 30px;
+}
+
+.hp-sm-icons {
+  margin-top: 30px;
+}
+
+.hp-sm-icons a {
+  color: var(--black-col);
+}
+
+.hp-sm-icons i {
+  font-size: 18px;
+}
+
+.hp-sm-icons a:not(:first-child) {
+  margin-left: 15px;
+}
+
+.hp-contact-address a {
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: var(--black-col);
+}
+
+.hp-contact-right {
+  margin-top: 15px;
+  padding: 0px 30px;
+}
+
+.hp-contact-right input {
+  width: 100%;
+  margin-bottom: 20px;
+  border-style: none;
+  outline: none;
+  border-bottom: 1px solid var(--black-col);
+  padding: 5px;
+}
+
+.hp-contact-right textarea {
+  width: 100%;
+  border-style: none;
+  outline: none;
+  border-bottom: 1px solid var(--black-col);
+}
+
+.hp-contact-right textarea::placeholder {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+
+.hp-contact-button {
+  background-color: #fff;
+  padding: 8px 30px;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  margin-top: 20px;
+}
+
+.hp-contact-button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+.hp-contact-button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+.copyright-section {
+  position: absolute;
+  bottom: 5px;
+}
+
+.hr-copyright {
+  width: 100%;
+}
+
+.copyright-section p {
+  font-size: 15px;
+  letter-spacing: 1px;
+
+}
+
+.copyright-section a {
+  color: var(--black-col);
+  text-decoration: none;
+}
+
+
+/* media query */
+
+
+@media only screen and (max-width:767px) {
+  .panel .container {
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+  }
+
+  .hero-section .hero-head {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+
+  .box-padding {
+    padding: 0px;
+  }
+
+  .project-details-bottom {
+    width: 95%;
+    bottom: 10px;
+  }
+  .project-details-bottom .client-name,
+  .place,
+  .type-work {
+    font-size: 12px;
+  }
+
+  .service-dtls-box {
+    bottom: 15px;
+  }
+
+  .hp-service-box .service-main-card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .service-dtls-box h4 {
+    font-size: 14px;
+  }
+
+  .service-dtls-box img {
+    width: 20px;
+    margin-right: 10px;
+  }
+
+  .service-dtls-box {
+    padding: 4px 10px;
+  }
+
+  .hp-contact-section {
+    padding: 10px 20px;
+  }
+
+  .hp-contact-section h2 {
+    font-size: 28px;
+  }
+
+  .hp-contact-left p {
+    margin: 10px 0 15px;
+  }
+
+  .hp-contact-right {
+    padding: 0px;
+  }
+
+  .hp-sm-icons {
+    margin-top: 15px;
+  }
+
+  .copyright-section {
+    bottom: 0px;
+    padding: 10px;
+  }
+
+  .copyright-section p {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .hp-contact-right input {
+    margin-bottom: 10px;
+  }
+
+  .hp-contact-right input:nth-child(3) {
+    margin-bottom: 0px;
+  }
+
+  .hp-contact-button {
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 6px 30px;
+  }
+}
+
