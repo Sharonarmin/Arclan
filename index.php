@@ -28,16 +28,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="about.php">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="contact.php">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -83,23 +83,49 @@
 
   <!-- hero section start -->
   <section class="panel hero-section">
+    <div></div>
     <div>
       <h2 class="hero-head">Crafted for Perfection</h2>
     </div>
+    <div>
+      <a href="#project-section1">
+        <div class="mouse" style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+                bottom: 25px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: #181818; animation: scrolldown 1.2s ease-in-out infinite 0.15s;">
+        </div>
+        <div class="mouse" style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
+                bottom: 40px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: #181818; animation: scrolldown 1.2s ease-in-out infinite;">
+        </div>
+      </a>
+      <div class="hero-contact-btn1">
+        <div class="hero-contact-btn">
+          <a href="#">
+            <span class="label-up">Contact Now<span class="ms-md-2 ms-2"><img src="assets/img/targerArr.svg" alt=""></span></span>
+            <span class="label-up">Contact Now<span class="ms-md-2 ms-2"><img src="assets/img/targerArr.svg" alt=""></span></span>
+          </a>
+        </div>
+      </div>
+      <div class="hero-social-btn">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+            
   </section>
   <!-- hero section end -->
 
   <!-- projects section start -->
 
-  <section class="panel hp-project-section">
+  <section class="panel hp-project-section" id="project-section1">
     <div class="container">
       <div class="box-padding">
         <div class="latest-projects">
           <img src="assets/img/proejcts/gaya sanctury/gaya-sanctury---1.jpg" alt="">
           <div class="project-details-bottom">
-            <p class="client-name">Gaya Sanctury</p>
-            <p class="place">Kozhikode</p>
-            <p class="type-work">Office</p>
+            <p class="client-name"><i class="fa-solid fa-user me-2"></i>Gaya Sanctury</p>
+            <p class="place"><i class="fa-solid fa-location-dot me-2"></i>Kozhikode</p>
+            <p class="type-work"><i class="fa-solid fa-building me-2"></i>Office</p>
           </div>
         </div>
       </div>
@@ -109,11 +135,11 @@
     <div class="container">
       <div class="box-padding">
         <div class="latest-projects">
-          <img src="assets/img/proejcts/vtrust/vtrust---2.jpg" alt="">
+          <img src="assets/img/proejcts/vtrust/vtrust---1.jpg" alt="">
           <div class="project-details-bottom">
-            <p class="client-name">Gaya Sanctury</p>
-            <p class="place">Kozhikode</p>
-            <p class="type-work">Office</p>
+            <p class="client-name"><i class="fa-solid fa-user me-2"></i>Gaya Sanctury</p>
+            <p class="place"><i class="fa-solid fa-location-dot me-2"></i>Kozhikode</p>
+            <p class="type-work"><i class="fa-solid fa-building me-2"></i>Office</p>
           </div>
         </div>
       </div>
@@ -125,9 +151,9 @@
         <div class="latest-projects">
           <img src="assets/img/proejcts/mosque/mosque--1.jpg" alt="">
           <div class="project-details-bottom">
-            <p class="client-name">Gaya Sanctury</p>
-            <p class="place">Kozhikode</p>
-            <p class="type-work">Office</p>
+            <p class="client-name"><i class="fa-solid fa-user me-2"></i>Gaya Sanctury</p>
+            <p class="place"><i class="fa-solid fa-location-dot me-2"></i>Kozhikode</p>
+            <p class="type-work"><i class="fa-solid fa-building me-2"></i>Office</p>
           </div>
         </div>
       </div>
@@ -139,9 +165,9 @@
         <div class="latest-projects">
           <img src="assets/img/proejcts/projects-1/projects---1.jpg" alt="">
           <div class="project-details-bottom">
-            <p class="client-name">Gaya Sanctury</p>
-            <p class="place">Kozhikode</p>
-            <p class="type-work">Office</p>
+            <p class="client-name"><i class="fa-solid fa-user me-2"></i>Gaya Sanctury</p>
+            <p class="place"><i class="fa-solid fa-location-dot me-2"></i>Kozhikode</p>
+            <p class="type-work"><i class="fa-solid fa-building me-2"></i>Office</p>
           </div>
         </div>
       </div>
@@ -153,9 +179,9 @@
         <div class="latest-projects">
           <img src="assets/img/proejcts/projects-1/projects---2.jpg" alt="">
           <div class="project-details-bottom">
-            <p class="client-name">Gaya Sanctury</p>
-            <p class="place">Kozhikode</p>
-            <p class="type-work">Office</p>
+            <p class="client-name"><i class="fa-solid fa-user me-2"></i>Gaya Sanctury</p>
+            <p class="place"><i class="fa-solid fa-location-dot me-2"></i>Kozhikode</p>
+            <p class="type-work"><i class="fa-solid fa-building me-2"></i>Office</p>
           </div>
         </div>
       </div>
@@ -213,9 +239,9 @@
             <p>Have a question or interested in our services? We're here to help! Get in touch using the information
               below or fill out the contact form. We can't wait to connect with you</p>
             <div class="hp-contact-address">
-              <a href="tel:+918281033566"><i class="fa-solid fa-phone"></i> : <span>+91 8281033566</span></a>
-              <a href="#"><i class="fa-solid fa-envelope"></i> : <span>info@arclan.com</span></a>
-              <a disabled><i class="fa-solid fa-location-dot"></i> : <span>Karanthur kozhikode</span></a>
+              <a href="tel:+918281033566"><i class="fa-solid fa-phone me-1"></i>  <span>+91 8281033566</span></a>
+              <a href="#"><i class="fa-solid fa-envelope me-1"></i>  <span>info@arclan.com</span></a>
+              <a disabled><i class="fa-solid fa-location-dot me-1"></i>  <span> Karanthur kozhikode</span></a>
             </div>
             <div class="hp-sm-icons">
               <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -258,6 +284,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
   <!-- scroll to -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollToPlugin.min.js"></script>
+  <!-- smooth scroll -->
+  <script src="assets/js/SmoothScrollMouseWheel.js"></script>
 
   <!-- main js -->
   <script src="assets/js/main.js"></script>

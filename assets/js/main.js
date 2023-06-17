@@ -1,3 +1,16 @@
+// sticky navbar
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 100) {
+    $('.arclanNavbar').addClass('stickyNavbar');
+  } else {
+    $('.arclanNavbar').removeClass('stickyNavbar');
+  }
+});
+
+
+
+
 // gsap.registerPlugin(ScrollTrigger);
 
 // gsap.utils.toArray(".panel").forEach((panel, i) => {
@@ -38,14 +51,4 @@ gsap.utils.toArray(".panel").forEach((panel, i) => {
 });
 
 
-
-// sticky navbar
-
-$(window).scroll(function () {
-  if ($(this).scrollTop() > 100) {
-    $('.arclanNavbar').addClass('stickyNavbar');
-  } else {
-    $('.arclanNavbar').removeClass('stickyNavbar');
-  }
-});
 
