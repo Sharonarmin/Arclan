@@ -73,6 +73,21 @@
     <!-- off canvas end -->
     <!-- navbar end -->
 
+    <!-- banner section start -->
+    <div class="banner-section">
+        <div class="container">
+            <div class="breadcrumb-section">
+                <h3>Contact Us</h3>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- banner section end -->
 
     <!-- contact form section start -->
     <div class="contact--form-section">
@@ -85,9 +100,9 @@
                 <p>Have a question or interested in our services? We're here to help! Get in touch using the information
                 below or fill out the contact form. We can't wait to connect with you</p>
                 <div class="hp-contact-address">
-                <a href="tel:+918281033566"><i class="fa-solid fa-phone"></i> : <span>+91 8281033566</span></a>
-                <a href="#"><i class="fa-solid fa-envelope"></i> : <span>info@arclan.com</span></a>
-                <a disabled><i class="fa-solid fa-location-dot"></i> : <span>Karanthur kozhikode</span></a>
+                <a href="tel:+918281033566"><i class="fa-solid fa-phone me-1"></i>  <span>+91 8281033566</span></a>
+                <a href="#"><i class="fa-solid fa-envelope me-1"></i>  <span>info@arclan.com</span></a>
+                <a disabled><i class="fa-solid fa-location-dot me-1"></i>  <span>Karanthur kozhikode</span></a>
                 </div>
                 <div class="hp-sm-icons">
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>

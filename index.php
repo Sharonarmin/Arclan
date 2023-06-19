@@ -90,10 +90,10 @@
     <div>
       <a href="#project-section1">
         <div class="mouse" style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
-                bottom: 25px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: #181818; animation: scrolldown 1.2s ease-in-out infinite 0.15s;">
+                bottom: 25px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: #bbb8b8; animation: scrolldown 1.2s ease-in-out infinite 0.15s;">
         </div>
         <div class="mouse" style="width: 2em; height: 2em; background-color: transparent; z-index: 80; 
-                bottom: 40px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: #181818; animation: scrolldown 1.2s ease-in-out infinite;">
+                bottom: 40px; position: absolute; border-width: 0 0.25em 0.25em 0; border-style: solid; border-color: #bbb8b8; animation: scrolldown 1.2s ease-in-out infinite;">
         </div>
       </a>
       <div class="hero-contact-btn1">
