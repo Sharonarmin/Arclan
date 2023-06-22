@@ -12,7 +12,6 @@
   <!-- style -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
 
 
@@ -34,7 +33,7 @@
             <a class="nav-link" href="about.php">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="project.php">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.php">Contact Us</a>
