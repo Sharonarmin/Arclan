@@ -1,5 +1,5 @@
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-box arclanNavbar">
+    <nav class="navbar navbar-expand-lg arclanNavbar" id="navbar-box">
         <div class="container">
             <a class="navbar-brand" href="index.php"><img src="assets/img/logo with white.png" alt=""></a>
             <div></div>

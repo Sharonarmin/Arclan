@@ -94,9 +94,6 @@
     </div>
     <!-- about section end -->
 
-    <!-- about service section start -->
-
-    <!-- about service section end -->
 
 
 
