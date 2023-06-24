@@ -91,12 +91,51 @@
                         </div>
                     </a>
                 </div>
+                <div class="project-box architecture">
+                    <a href="portfolio-details.php">
+                        <img class="img-fluid project-img" src="assets/img/proejcts/mosque/mosque--1.jpg" alt="">
+                        <div class="project-desc">
+                            <div class="project-dtls">
+                                <p class="project-name">Mosque</p>
+                                <p class="project-type">Interior</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-box interiors">
+                    <a href="portfolio-details.php">
+                        <img class="img-fluid project-img" src="assets/img/proejcts/vtrust/vtrust---1.jpg" alt="">
+                        <div class="project-desc">
+                            <div class="project-dtls">
+                                <p class="project-name">V Trust Eye Care</p>
+                                <p class="project-type">Interior</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project-box interiors landscape">
+                    <a href="portfolio-details.php">
+                        <img class="img-fluid project-img" src="assets/img/proejcts/gaya sanctury/gaya-sanctury---1.jpg" alt="">
+                        <div class="project-desc">
+                            <div class="project-dtls">
+                                <p class="project-name">V Trust Eye Care</p>
+                                <p class="project-type">Interior</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                
             </div>
         </div>
     </div>
 
     <!-- projects filter section end -->
 
+
+    <!-- footer start -->
+        <?php include 'includes/footer.php' ?>
+    <!-- footer end -->
 
 
 

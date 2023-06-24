@@ -73,6 +73,32 @@
 
     </div>
     <!-- contact form section end -->
+
+
+    <!-- contact page map start -->
+        <div class="contact-map">
+            <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125218.35709451426!2d75.72841289995846!3d11.25599177352114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65938563d4747%3A0x32150641ca32ecab!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1687590977168!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    <!-- contact page map end -->
+
+
+    <!-- footer section start -->
+    <div class="footer-copyright-section">
+        <div class="container">
+            <div class="copyrigts-para">        <p>Copyright © 2023 Arclan. All Rights Reserved | Designed by <a href="https://www.mentegoz.com/"
+            target="_blank">Mentegoz Technologies</a></p></div>
+            <div class="ftr-links">
+                <a href="index.php">Home</a>
+                <a href="about.php">About Us</a>
+                <a href="project.php">Projects</a>
+                <a href="#">Careers</a>
+                <a href="contact.php">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <!-- footer section end -->
     
 </body>
 </html>

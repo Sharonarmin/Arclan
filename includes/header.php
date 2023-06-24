@@ -19,6 +19,9 @@
                         <a class="nav-link" href="project.php">Projects</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="testimonial.php">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact Us</a>
                     </li>
                 </ul>

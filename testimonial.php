@@ -74,21 +74,12 @@
     </div>
     <!-- testimonial section end -->
 
-
-
-
-
     <!-- footer start -->
-    <!-- <div class="footer-section">
-        <div class="container">
-            <div class="footer-menu">
-                <div class="footer-logo">
-                    <img src="assets/img/logo-1.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div> -->
+    <?php include 'includes/footer.php' ?>
     <!-- footer end -->
+
+
+
 
 
     <!-- jquery -->
