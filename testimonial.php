@@ -45,7 +45,7 @@
                             <img src="assets/img/testimonial/testimonial-1.png" alt="">
                             <div class="testimonial-account-dtls">
                                 <h4>Adil Shabab</h4>
-                                <h6>Manager at Malabar Gold & Diamond</h6>
+                                <h6>Manager at Malabar Gold</h6>
                             </div>                                
                         </div>
                         <div class="content">
@@ -60,7 +60,7 @@
                             <img src="assets/img/testimonial/testimonial-1.png" alt="">
                             <div class="testimonial-account-dtls">
                                 <h4>Adil Shabab</h4>
-                                <h6>Manager at Malabar Gold & Diamond</h6>
+                                <h6>Manager at Malabar Gold</h6>
                             </div>                                
                         </div>
                         <div class="content">

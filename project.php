@@ -59,7 +59,7 @@
             </div>
             <div class="project-boxes">
                 <div class="project-box interiors">
-                    <a href="portfolio-details.php">
+                    <a href="project-details.php">
                         <img class="img-fluid project-img" src="assets/img/proejcts/vtrust/vtrust---1.jpg" alt="">
                         <div class="project-desc">
                             <div class="project-dtls">
@@ -70,7 +70,7 @@
                     </a>
                 </div>
                 <div class="project-box interiors landscape">
-                    <a href="portfolio-details.php">
+                    <a href="project-details.php">
                         <img class="img-fluid project-img" src="assets/img/proejcts/gaya sanctury/gaya-sanctury---1.jpg" alt="">
                         <div class="project-desc">
                             <div class="project-dtls">
@@ -81,7 +81,7 @@
                     </a>
                 </div>
                 <div class="project-box architecture">
-                    <a href="portfolio-details.php">
+                    <a href="project-details.php">
                         <img class="img-fluid project-img" src="assets/img/proejcts/mosque/mosque--1.jpg" alt="">
                         <div class="project-desc">
                             <div class="project-dtls">
@@ -92,7 +92,7 @@
                     </a>
                 </div>
                 <div class="project-box architecture">
-                    <a href="portfolio-details.php">
+                    <a href="project-details.php">
                         <img class="img-fluid project-img" src="assets/img/proejcts/mosque/mosque--1.jpg" alt="">
                         <div class="project-desc">
                             <div class="project-dtls">
@@ -103,7 +103,7 @@
                     </a>
                 </div>
                 <div class="project-box interiors">
-                    <a href="portfolio-details.php">
+                    <a href="project-details.php">
                         <img class="img-fluid project-img" src="assets/img/proejcts/vtrust/vtrust---1.jpg" alt="">
                         <div class="project-desc">
                             <div class="project-dtls">
@@ -114,7 +114,7 @@
                     </a>
                 </div>
                 <div class="project-box interiors landscape">
-                    <a href="portfolio-details.php">
+                    <a href="project-details.php">
                         <img class="img-fluid project-img" src="assets/img/proejcts/gaya sanctury/gaya-sanctury---1.jpg" alt="">
                         <div class="project-desc">
                             <div class="project-dtls">

@@ -134,6 +134,7 @@
                 </div>
             </div>
         </div>
+        <hr class="mobile-hr">
     </div>
     <!-- next prev project section end -->
 

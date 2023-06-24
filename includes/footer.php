@@ -2,7 +2,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-12">
+                <div class="col-md-8 col-12 order-md-1 order-2">
                     <div class="ftr-background-img">
                     <div class="ftr-sm-section">
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -12,7 +12,7 @@
                     </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-12 ftr-contact-col">
+                <div class="col-md-4 col-12 ftr-contact-col order-md-2 order-1">
                     <div class="ftr-contact-form">
                         <h3>Reach out without delay</h3>
                         <div class="input-form">
