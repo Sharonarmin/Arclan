@@ -97,6 +97,17 @@
     </div>
     <!-- about section end -->
 
+
+    <!-- about service section start -->
+    <div class="about-service-section">
+        <div class="container">
+            
+        </div>
+    </div>
+
+
+    <!-- about service section end -->
+
     <!-- team section start -->
     <div class="team-section">
         <div class="container">

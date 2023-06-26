@@ -7,6 +7,30 @@ $(window).scroll(function () {
   }
 });
 
+
+// career input box
+const careerInputContainer = document.querySelector('.row');
+
+careerInputContainer.addEventListener('focusin', (event) => {
+  const target = event.target;
+  if (target.matches('.career-input')) {
+    const label = target.parentNode.querySelector('.career-label');
+    label.classList.add('active');
+  }
+});
+
+careerInputContainer.addEventListener('focusout', (event) => {
+  const target = event.target;
+  if (target.matches('.career-input')) {
+    const label = target.parentNode.querySelector('.career-label');
+    if (target.value === '') {
+      label.classList.remove('active');
+    }
+  }
+});
+
+
+
 // gsap
 gsap.registerPlugin(ScrollTrigger);
 
@@ -25,4 +49,6 @@ gsap.utils.toArray(".panel").forEach((panel, i) => {
     },
   });
 });
+
+
 
