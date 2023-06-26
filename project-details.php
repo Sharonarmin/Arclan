@@ -152,8 +152,8 @@
     <!-- slick -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="assets/js/slick-slider.js"></script>
-    <!-- image reveal -->
-    <script src="assets/js/image-reveal.js"></script>
+    <!-- smooth scroll js -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 </body>

@@ -10,19 +10,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link hp-nav-link" aria-current="page" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
+                        <a class="nav-link abt-nav-link" href="about.php">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="project.php">Projects</a>
+                        <a class="nav-link project-nav-link" href="project.php">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="testimonial.php">Testimonials</a>
+                        <a class="nav-link testimonial-nav-link" href="testimonial.php">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact Us</a>
+                        <a class="nav-link blog-nav-link" href="blog.php">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link contact-nav-link" href="contact.php">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -40,19 +43,22 @@
         <div class="offcanvas-body">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link home-pg-nav-link" aria-current="page" href="index.php">Home</a>
+                    <a class="nav-link hp-nav-link" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link about-pg-nav-link" href="about.php">About Us</a>
+                    <a class="nav-link abt-nav-link" href="about.php">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link project-pg-nav-link" href="project.php">Projects</a>
+                    <a class="nav-link project-nav-link" href="project.php">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link service-pg-nav-link" href="testimonial.php">Testimonials</a>
+                    <a class="nav-link testimonial-nav-link" href="testimonial.php">Testimonials</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link contact-pg-nav-link" href="contact.php">Contact Us</a>
+                        <a class="nav-link blog-nav-link" href="blog.php">Blog</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link contact-nav-link" href="contact.php">Contact Us</a>
                 </li>
             </ul>
         </div>

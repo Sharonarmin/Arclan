@@ -9,6 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
     <!-- style -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -94,6 +97,84 @@
     </div>
     <!-- about section end -->
 
+    <!-- team section start -->
+    <div class="team-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="mt-4">
+                        <h3>Building Dreams Together: Meet Our Team</h3>
+                        <p class="mt-3">Meet our skilled team of architects, designers, and landscape experts. With their expertise, we create captivating spaces for residential, hospitality, and commercial projects. Together, we bring your vision to life with innovation and excellence.</p>
+                    </div>
+                </div>
+                <div class="col-md-8 col-12">
+                    <div class="team-slider owl-carousel">
+                        <div class="team-box">
+                            <div class="team-img">
+                                <img src="assets/img/team/team-1.png" alt="">
+                            </div>
+                            <div class="team-description">
+                                <div class="team-dtls">
+                                    <h4>Mathew Wade</h4>
+                                    <p>CEO</p>
+                                </div>
+                                <div class="team-social-media">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-img">
+                                <img src="assets/img/team/team-2.png" alt="">
+                            </div>
+                            <div class="team-description">
+                                <div class="team-dtls">
+                                    <h4>Mathew Wade</h4>
+                                    <p>CEO</p>
+                                </div>
+                                <div class="team-social-media">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-img">
+                                <img src="assets/img/team/team-3.png" alt="">
+                            </div>
+                            <div class="team-description">
+                                <div class="team-dtls">
+                                    <h4>Mathew Wade</h4>
+                                    <p>CEO</p>
+                                </div>
+                                <div class="team-social-media">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-img">
+                                <img src="assets/img/team/team-4.png" alt="">
+                            </div>
+                            <div class="team-description">
+                                <div class="team-dtls">
+                                    <h4>Mathew Wade</h4>
+                                    <p>CEO</p>
+                                </div>
+                                <div class="team-social-media">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- team section end -->
 
 
     <!-- footer start -->
@@ -101,12 +182,21 @@
     <!-- footer end -->
 
 
+    <script>
+        document.querySelectorAll('.abt-nav-link').forEach((item) => item.classList.add('active'));
+    </script>
+
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- owl carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
     <!-- image reveal -->
     <script src="assets/js/image-reveal.js"></script>
+    <!-- smooth scroll js -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 

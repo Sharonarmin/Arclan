@@ -50,6 +50,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- image reveal -->
     <script src="assets/js/image-reveal.js"></script>
+    <!-- smooth scroll js -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 

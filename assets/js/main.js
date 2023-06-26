@@ -26,5 +26,3 @@ gsap.utils.toArray(".panel").forEach((panel, i) => {
   });
 });
 
-
-
