@@ -305,8 +305,6 @@
   <script src="assets/js/SmoothScrollMouseWheel.js"></script>
   <!-- main js -->
   <script src="assets/js/main.js"></script>
-  </div>
-  </div>
-</body>
 
+</body>
 </html>

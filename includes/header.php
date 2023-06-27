@@ -55,7 +55,7 @@
                     <a class="nav-link testimonial-nav-link" href="testimonial.php">Testimonials</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link blog-nav-link" href="career.php">Career</a>
+                    <a class="nav-link" href="career.php">Career</a>
                 </li>
                 <li class="nav-item">
                         <a class="nav-link blog-nav-link" href="blog.php">Blog</a>

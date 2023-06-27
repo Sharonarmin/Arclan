@@ -50,7 +50,7 @@
                         </div>
                         <div class="content">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur corrupti, mollitia, fugit provident delectus ullam voluptates recusandae praesentium ex quibusdam perferendis nihil veritatis porro quod explicabo debitis consectetur? Corporis, corrupti.</p>
-                            <a href="#">Read More</a>
+                            <a href="testimonial-details.php">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                         </div>
                         <div class="content">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur corrupti, mollitia, fugit provident delectus ullam voluptates recusandae praesentium ex quibusdam perferendis nihil veritatis porro quod explicabo debitis consectetur? Corporis, corrupti.</p>
-                            <a href="#">Read More</a>
+                            <a href="testimonial-details.php">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                         </div>
                         <div class="content">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur corrupti, mollitia, fugit provident delectus ullam voluptates recusandae praesentium ex quibusdam perferendis nihil veritatis porro quod explicabo debitis consectetur? Corporis, corrupti.</p>
-                            <a href="#">Read More</a>
+                            <a href="testimonial-details.php">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                         </div>
                         <div class="content">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur corrupti, mollitia, fugit provident delectus ullam voluptates recusandae praesentium ex quibusdam perferendis nihil veritatis porro quod explicabo debitis consectetur? Corporis, corrupti.</p>
-                            <a href="#">Read More</a>
+                            <a href="testimonial-details.php">Read More</a>
                         </div>
                     </div>
                 </div>
