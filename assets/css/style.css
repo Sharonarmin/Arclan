@@ -348,6 +348,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+.hp-service-section .row>*{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 
 .service-section {
   background-color: #fff !important;
@@ -676,7 +680,7 @@ body {
   flex-direction: row;
   align-items: stretch;
   overflow: hidden;
-  min-width: 500px;
+  min-width: 600px;
   max-width: 800px;
   width: calc(100% - 100px);
   height: 400px;
@@ -723,7 +727,7 @@ body {
 .options .option {
   position: relative;
   overflow: hidden;
-  min-width: 50px;
+  min-width: 40px;
   margin: 10px;
   background: var(--optionBackground, var(--defaultBackground, #E6E9ED));
   background-size: contain;
@@ -1140,8 +1144,8 @@ div .mouse {
   display: grid;
   transition: .3s ease-in;
   margin-top: 50px;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px 2px;
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -1153,6 +1157,7 @@ div .mouse {
   position: relative;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
+  overflow: hidden;
 }
 
 .project-box a {
@@ -1162,26 +1167,50 @@ div .mouse {
 
 .project-box .project-img {
   width: 100%;
-  height: 280px;
+  height: 380px;
   object-fit: cover;
   border-radius: 2px;
 }
 
+
+.project-desc{
+  position: absolute;
+  padding: 0px 0px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #000000ab;
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius:5px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  transition: 0.2s ease-in-out;
+  opacity: 0;
+}
+
+
+.project-box :hover .project-desc{
+  opacity: 1;
+  padding: 20px 30px;
+}
+
 .project-box .project-desc .project-dtls .project-name {
-  font-size: 17px;
-  line-height: 26px;
-  font-weight: bolder;
-  color: var(--black-col);
+  font-size: 22px;
+  line-height: 30px;
   font-weight: 500;
+  letter-spacing: 2px;
   margin-top: 10px;
   margin-bottom: 0px;
+  text-align: center;
+  color: var(--white-col);
 }
 
 .project-box .project-desc .project-dtls .project-type {
   font-size: 14px;
   font-weight: lighter;
-  color: #756b66;
+  color: var(--white-col);
   letter-spacing: 1px;
+  text-align: center;
 }
 
 @media only screen and (max-width:767px) {
@@ -1196,13 +1225,13 @@ div .mouse {
 /* project inner page */
 
 .projet-inner-pg-head-section {
-  padding: 100px 10px;
-  margin-top: 120px;
+  padding: 50px 10px 80px;
+  margin-top: 80px;
 }
 
 .projet-inner-pg-head-section .head {
   font-family: 'century gothic';
-  font-weight: 900;
+  font-weight: 500;
   font-size: 60px;
 }
 
@@ -1760,15 +1789,27 @@ footer {
 
 .blog-card {
   border-style: none;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-style: none;
+  margin-bottom: 30px;
+}
+.blog-card img{
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
-.blog-card .btn {
-  background-color: var(--white-col);
+.blog-card  .card-title{
+  font-size: 24px;
+  font-weight: 500;
+}
+.blog-card .blog-btn {
   color: var(--black-col);
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   font-size: 16px;
-  font-weight: 600;
+  line-height: 26px;
+  font-weight: 500;
+
+
 }
 
 .blog-pagination .page-item.active .page-link {
@@ -2009,4 +2050,47 @@ footer {
 .grid-item img {
   display: block;
   width: 100%;
+}
+
+@media only screen and (max-width:767px) {
+  .testimonial-details-section{
+    padding: 50px 10px;
+  }
+}
+
+
+
+/* scroll top button */
+#scrollTopButton {
+  display: inline-block;
+  background-color: #000000;
+  color: var(--white-col);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+  opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#scrollTopButton:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#scrollTopButton:active {
+  background-color: #555;
+}
+#scrollTopButton.show {
+  opacity: 1;
+  visibility: visible;
 }

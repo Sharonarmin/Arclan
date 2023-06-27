@@ -69,3 +69,7 @@
 
     <!-- off canvas end -->
     <!-- navbar end -->
+
+    <!-- scroll to top  -->
+
+    <a id="scrollTopButton"><i class="fa-solid fa-arrow-up"></i></a>

@@ -45,7 +45,7 @@
     <div class="about-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 col-12">
+                <div class="col-md-5 col-12">
                     <div class="abt-left">
                         <h4>Architecture | Interiors | Landscape</h4>
 
@@ -53,7 +53,7 @@
                         <p class="abt-head-para">At Arclan, we are driven by a deep passion for design that transcends time.</p>
                     </div>
                 </div>
-                <div class="col-md-5 col-12" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                <div class="col-md-7 col-12" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="options" >
                         <div class="option active" style="Background:url(assets/arclan1.png);">
                         </div>

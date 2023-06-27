@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Blog</title>
 
-        <!-- bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-        <!-- fontawesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <!-- aos -->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <!-- style -->
-        <link rel="stylesheet" href="assets/css/style.css">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Blog</title>
 
-    </head>
-    <body>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
 
     <!-- header -->
     <?php include 'includes/header.php'; ?>
@@ -42,117 +44,90 @@
     <div class="blog-pg-section">
         <div class="container">
             <div class="row">
-                <!-- Blog entries-->
-                <div class="col-lg-8">
-                    <!-- Featured blog post-->
-                    <div class="card blog-card mb-4"  data-aos="fade-up">
-                        <a href="#!"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="..." /></a>
+                <div class="col-md-4 col-12">
+                    <!-- Blog post-->
+                    <div class="blog-card" data-aos="fade-up">
+                        <a href="#!"><img class="card-img-top" src="assets/img/blog/blog-1.jpg" alt="..." /></a>
                         <div class="card-body">
-                            <div class="small text-muted">January 1, 2023</div>
-                            <h2 class="card-title">Featured Post Title</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-                            <a class="btn" href="#!">Read more →</a>
+                            <h2 class="card-title h4">Lorem ipsum dolor</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+                                aliquid atque, nulla.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque,
+                                nulla.
+                            </p>
+                            <a class="blog-btn" href="#!">Read more</a>
                         </div>
                     </div>
-                    <!-- Nested row for non-featured blog posts-->
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <!-- Blog post-->
-                            <div class="card blog-card mb-4"  data-aos="fade-up">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
-                                <div class="card-body">
-                                    <div class="small text-muted">January 1, 2023</div>
-                                    <h2 class="card-title h4">Post Title</h2>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-                                    <a class="btn" href="#!">Read more →</a>
-                                </div>
-                            </div>
-                            <!-- Blog post-->
-                            <div class="card blog-card mb-4" data-aos="fade-up">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
-                                <div class="card-body">
-                                    <div class="small text-muted">January 1, 2023</div>
-                                    <h2 class="card-title h4">Post Title</h2>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-                                    <a class="btn" href="#!">Read more →</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <!-- Blog post-->
-                            <div class="card blog-card mb-4" data-aos="fade-up">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
-                                <div class="card-body">
-                                    <div class="small text-muted">January 1, 2023</div>
-                                    <h2 class="card-title h4">Post Title</h2>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-                                    <a class="btn" href="#!">Read more →</a>
-                                </div>
-                            </div>
-                            <!-- Blog post-->
-                            <div class="card blog-card mb-4" data-aos="fade-up">
-                                <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
-                                <div class="card-body">
-                                    <div class="small text-muted">January 1, 2023</div>
-                                    <h2 class="card-title h4">Post Title</h2>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-                                    <a class="btn " href="#!">Read more →</a>
-                                </div>
-                            </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <!-- Blog post-->
+                    <div class="blog-card" data-aos="fade-up">
+                        <a href="#!"><img class="card-img-top" src="assets/img/blog/blog-2.jpg" alt="..." /></a>
+                        <div class="card-body">
+                            <h2 class="card-title h4">Lorem ipsum dolor</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+                                aliquid atque, nulla.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque,
+                                nulla.
+                            </p>
+                            <a class="blog-btn" href="#!">Read more</a>
                         </div>
                     </div>
-                    <!-- Pagination-->
-                    <nav aria-label="Pagination">
+                </div>
+                <div class="col-md-4 col-12">
+                    <!-- Blog post-->
+                    <div class="blog-card" data-aos="fade-up">
+                        <a href="#!"><img class="card-img-top" src="assets/img/blog/blog-3.jpg" alt="..." /></a>
+                        <div class="card-body">
+                            <h2 class="card-title h4">Lorem ipsum dolor</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+                                aliquid atque, nulla.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque,
+                                nulla.
+                            </p>
+                            <a class="blog-btn" href="#!">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <!-- Blog post-->
+                    <div class="blog-card" data-aos="fade-up">
+                        <a href="#!"><img class="card-img-top" src="assets/img/blog/blog-1.jpg" alt="..." /></a>
+                        <div class="card-body">
+                            <h2 class="card-title h4">Lorem ipsum dolor</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+                                aliquid atque, nulla.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque,
+                                nulla.
+                            </p>
+                            <a class="blog-btn" href="#!">Read more</a>
+                        </div>
+                    </div>
+                </div>
 
-                        <ul class="pagination justify-content-center my-4 blog-pagination">
-                            <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Newer</a></li>
-                            <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#!">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#!">3</a></li>
-                            <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
-                            <li class="page-item"><a class="page-link" href="#!">15</a></li>
-                            <li class="page-item"><a class="page-link" href="#!">Older</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <!-- Side widgets-->
-                <div class="col-lg-4">
-                    <!-- Categories widget-->
-                    <div class="card mb-4 cartagory-card">
-                        <div class="card-header">Categories</div>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">Web Design</a></li>
-                                        <li><a href="#!">HTML</a></li>
-                                        <li><a href="#!">Freebies</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">JavaScript</a></li>
-                                        <li><a href="#!">CSS</a></li>
-                                        <li><a href="#!">Tutorials</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Side widget-->
-                    <div class="card mb-4">
-                        <div class="card-header">Side Widget</div>
-                        <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam enim aperiam ipsum fuga incidunt laboriosam? Saepe qui blanditiis esse cupiditate soluta a, accusamus magnam, neque dolores tempora quos sint iusto!</div>
-                    </div>
-                </div>
+
             </div>
+            <!-- Pagination-->
+            <nav aria-label="Pagination">
+
+                <ul class="pagination justify-content-center my-4 blog-pagination">
+                    <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1"
+                            aria-disabled="true">Newer</a></li>
+                    <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                    <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
+                    <li class="page-item"><a class="page-link" href="#!">15</a></li>
+                    <li class="page-item"><a class="page-link" href="#!">Older</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 
 
-        <!-- footer start -->
-            <?php include 'includes/footer.php' ?>
-        <!-- footer end -->
+    <!-- footer start -->
+    <?php include 'includes/footer.php' ?>
+    <!-- footer end -->
 
     <script>
         document.querySelectorAll(".blog-nav-link").forEach((item) => item.classList.add("active"));
@@ -170,5 +145,6 @@
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 
-    </body>
+</body>
+
 </html>
