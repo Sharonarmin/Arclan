@@ -1,5 +1,5 @@
     <!-- navbar start -->
-    <nav class="navbar navbar-expand-lg arclanNavbar" id="navbar-box">
+    <nav class="navbar navbar-expand-lg navbar-box arclanNavbar" >
         <div class="container">
             <a class="navbar-brand" href="index.php"><img src="assets/img/logo with white.png" alt=""></a>
             <div></div>
@@ -55,8 +55,11 @@
                     <a class="nav-link testimonial-nav-link" href="testimonial.php">Testimonials</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link blog-nav-link" href="career.php">Career</a>
+                </li>
+                <li class="nav-item">
                         <a class="nav-link blog-nav-link" href="blog.php">Blog</a>
-                    </li>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link contact-nav-link" href="contact.php">Contact Us</a>
                 </li>

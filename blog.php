@@ -11,6 +11,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <!-- fontawesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <!-- aos -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- style -->
         <link rel="stylesheet" href="assets/css/style.css">
 
@@ -43,7 +45,7 @@
                 <!-- Blog entries-->
                 <div class="col-lg-8">
                     <!-- Featured blog post-->
-                    <div class="card blog-card mb-4">
+                    <div class="card blog-card mb-4"  data-aos="fade-up">
                         <a href="#!"><img class="card-img-top" src="https://dummyimage.com/850x350/dee2e6/6c757d.jpg" alt="..." /></a>
                         <div class="card-body">
                             <div class="small text-muted">January 1, 2023</div>
@@ -56,7 +58,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <!-- Blog post-->
-                            <div class="card blog-card mb-4">
+                            <div class="card blog-card mb-4"  data-aos="fade-up">
                                 <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">January 1, 2023</div>
@@ -66,7 +68,7 @@
                                 </div>
                             </div>
                             <!-- Blog post-->
-                            <div class="card blog-card mb-4">
+                            <div class="card blog-card mb-4" data-aos="fade-up">
                                 <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">January 1, 2023</div>
@@ -78,7 +80,7 @@
                         </div>
                         <div class="col-lg-6">
                             <!-- Blog post-->
-                            <div class="card blog-card mb-4">
+                            <div class="card blog-card mb-4" data-aos="fade-up">
                                 <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">January 1, 2023</div>
@@ -88,7 +90,7 @@
                                 </div>
                             </div>
                             <!-- Blog post-->
-                            <div class="card blog-card mb-4">
+                            <div class="card blog-card mb-4" data-aos="fade-up">
                                 <a href="#!"><img class="card-img-top" src="https://dummyimage.com/700x350/dee2e6/6c757d.jpg" alt="..." /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">January 1, 2023</div>
@@ -115,16 +117,6 @@
                 </div>
                 <!-- Side widgets-->
                 <div class="col-lg-4">
-                    <!-- Search widget-->
-                    <!-- <div class="card mb-4">
-                        <div class="card-header">Search</div>
-                        <div class="card-body">
-                            <div class="input-group">
-                                <input class="form-control" type="text" placeholder="Enter search term..." aria-label="Enter search term..." aria-describedby="button-search" />
-                                <button class="btn" id="button-search" type="button">Go!</button>
-                            </div>
-                        </div>
-                    </div> -->
                     <!-- Categories widget-->
                     <div class="card mb-4 cartagory-card">
                         <div class="card-header">Categories</div>
@@ -170,6 +162,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/aos.js"></script>
     <!-- smooth scroll js -->
     <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->

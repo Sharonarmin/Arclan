@@ -169,11 +169,13 @@ body {
   /* border-bottom: 1px solid #dad6d6ad; */
   z-index: 999;
   transition: top 0.3s ease;
+  transition: .5s;
 }
 
 .navbar-brand {
   position: absolute;
   margin-top: 60px;
+  transition: .5s;
 }
 
 .navbar-brand img {
@@ -188,25 +190,25 @@ body {
   box-shadow: none;
 }
 
-.navbar-box {
+/* .navbar-box {
   position: absolute;
   width: 100%;
   padding: 10px 0px;
   z-index: 11;
   top: 0;
-  transition: top 1s ease;
-}
+  transition: .5s;
+} */
 
-.stickyNavbar {
+/* .stickyNavbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 60px;
-  transition: top 1s ease;
   background-color: var(--white-col);
+  transition: .5s;
 
-}
+} */
 
 .arclanNavbar .nav-item .nav-link {
   font-size: 16px;
@@ -859,9 +861,64 @@ body {
 
 
 /* abt service section */
-.about-service-section{
-  padding: 100px 10px;
 
+.about-main-service-section{
+  padding: 100px 10px;
+  background-image: url('../img/service-img.jpg');
+  background-size: cover;
+  min-height: 40vh;
+  margin-bottom: 100px;
+  background-position: center;
+  position: relative;
+  z-index: 11;
+
+}
+
+.about-main-service-section::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #00000059;
+  z-index: -1;
+}
+
+.about-main-service-section h2{
+  font-size: 44px;
+  line-height: 50px;
+  font-weight: 600;
+  color: var(--white-col);
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.service-cards{
+  padding: 30px 20px;
+  border-radius: 5px;
+  background-color: var(--white-col);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  margin-bottom: 20px;
+
+}
+.service-cards img{
+  width: 50px;
+}
+.service-cards h4{
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.service-cards p{
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
 }
 
 
@@ -875,6 +932,12 @@ body {
   .team-img{
     width: 100%;
     height: 320px;
+  }
+  .team-section h3{
+    font-size: 24px;
+  }
+  .about-main-service-section{
+    margin-bottom: 50px;
   }
 }
 
@@ -1619,6 +1682,13 @@ footer {
   box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 25%);
 }
 
+@media only screen and (max-width:767px){
+  .blog-pg-section{
+    padding: 50px 10px;
+  }
+}
+
+
 
 /* career poage */
 .career-section{
@@ -1752,3 +1822,30 @@ footer {
     margin-bottom: 10px;
   }
 }
+
+
+#main-nav {
+  background-color: var(--white-col);
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  transition: .5s ease-in-out;
+  position: absolute;
+}
+
+
+#main-nav.sticky {
+  position: fixed;
+  top: 0;
+  margin-bottom: 45px;
+  transition: .5s ease-in-out;
+}
+
+.navbarOffsetMargin {
+  padding-top: 45px;
+  transition: .5s ease-in-out;
+}
+
+

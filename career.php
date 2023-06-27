@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">    
     <!-- style -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -37,7 +39,7 @@
     <!-- career section start -->
     <div class="career-section">
         <div class="container">
-            <div class="career-box">
+            <div class="career-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                 <div class="career-box-left">
                     <h4 class="job-post">Civil Engineer</h4>
                     <p>We are Looking for 5 year experienced Civil Engineer</p>
@@ -56,7 +58,7 @@
                     <a href="#" data-bs-toggle="modal" data-bs-target="#careerModal">Apply Now <img src="assets/img/targerArr.svg" alt=""></a>
                 </div>
             </div>
-            <div class="career-box">
+            <div class="career-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                 <div class="career-box-left">
                     <h4 class="job-post">Civil Engineer</h4>
                     <p>We are Looking for 5 year experienced Civil Engineer</p>
@@ -75,7 +77,7 @@
                     <a href="#" data-bs-toggle="modal" data-bs-target="#careerModal">Apply Now <img src="assets/img/targerArr.svg" alt=""></a>
                 </div>
             </div>
-            <div class="career-box">
+            <div class="career-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
                 <div class="career-box-left">
                     <h4 class="job-post">Civil Engineer</h4>
                     <p>We are Looking for 5 year experienced Civil Engineer</p>
@@ -158,6 +160,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- image reveal -->
     <script src="assets/js/image-reveal.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/aos.js"></script>
     <!-- smooth scroll js -->
     <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->

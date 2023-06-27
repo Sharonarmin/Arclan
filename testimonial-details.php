@@ -17,11 +17,24 @@
         <?php include 'includes/header.php'; ?> 
     <!-- header end -->
 
-    
+    <div class="testimonial-details-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-12">
+                    
+                </div>
+                <div class="col-md-9 col-12">
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
-
+    <!-- footer start -->
+        <?php include 'includes/footer.php' ?>
+    <!-- footer end -->
 
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>

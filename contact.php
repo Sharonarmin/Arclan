@@ -8,6 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- style -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -77,7 +79,7 @@
 
     <!-- contact page map start -->
         <div class="contact-map">
-            <div class="container">
+            <div class="container" data-aos="fade-up">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125218.35709451426!2d75.72841289995846!3d11.25599177352114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65938563d4747%3A0x32150641ca32ecab!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1687590977168!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
@@ -93,7 +95,7 @@
                 <a href="index.php">Home</a>
                 <a href="about.php">About Us</a>
                 <a href="project.php">Projects</a>
-                <a href="#">Careers</a>
+                <a href="career.php">Careers</a>
                 <a href="contact.php">Contact Us</a>
             </div>
         </div>
@@ -108,6 +110,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+    <script src="assets/js/aos.js"></script>  
     <!-- smooth scroll js -->
     <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->

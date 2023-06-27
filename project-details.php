@@ -13,6 +13,8 @@
     <!-- slick slider -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- style -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -39,7 +41,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-6">
-                    <div class="details-box">
+                    <div class="details-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="300">
                         <div>
                             <h4>CLIENT</h4>
                             <P>CMC V Trust</P>
@@ -47,7 +49,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
-                    <div class="details-box">
+                    <div class="details-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700">
                         <div>
                             <h4>LOCATION</h4>
                             <P>Koyilandi</P>
@@ -55,7 +57,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
-                    <div class="details-box">
+                    <div class="details-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1100">
                         <div>
                             <h4>AREA</h4>
                             <P>8000 Sqft</P>
@@ -63,7 +65,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
-                    <div class="details-box">
+                    <div class="details-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                         <div>
                             <h4>PROJECT TYPE</h4>
                             <P>Interior</P>
@@ -152,6 +154,9 @@
     <!-- slick -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="assets/js/slick-slider.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/aos.js"></script>
     <!-- smooth scroll js -->
     <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->

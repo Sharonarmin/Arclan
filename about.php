@@ -12,6 +12,8 @@
     <!-- owl carousel -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- style -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -51,8 +53,8 @@
                         <p class="abt-head-para">At Arclan, we are driven by a deep passion for design that transcends time.</p>
                     </div>
                 </div>
-                <div class="col-md-5 col-12">
-                    <div class="options">
+                <div class="col-md-5 col-12" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                    <div class="options" >
                         <div class="option active" style="Background:url(assets/arclan1.png);">
                         </div>
                         <div class="option" style="Background:url(assets/arclan2.png);">
@@ -99,9 +101,32 @@
 
 
     <!-- about service section start -->
-    <div class="about-service-section">
+    <div class="about-main-service-section">
         <div class="container">
-            
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 col-12  mb-3">
+                    <div class="service-cards h-100"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+                        <img src="assets/img/icons/Architecture.png" alt="">
+                        <h4>Architecture</h4>
+                        <p>Unleash creativity with our architectural solutions, crafting inspiring spaces that captivate. Experience innovation in design, sustainability, and functionality. Redefine possibilities with our iconic structures.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 mb-3">
+                    <div class="service-cards h-100"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+                        <img src="assets/img/icons/Interiors.png" alt="">
+                        <h4>Interiors</h4>
+                        <p>Transform your space with our exceptional interior design services. We create stylish and functional interiors tailored to your unique taste. Let our experts bring your vision to life and make your home truly remarkable.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 mb-3">
+                    <div class="service-cards h-100"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="500">
+                        <img src="assets/img/icons/Landscape.png" alt="">
+                        <h4>Landscape</h4>
+                        <p>Transform outdoor spaces into stunning natural retreats. Our landscape designs harmonize beauty and functionality, creating captivating environments. Experience the allure of nature through our innovative and sustainable solutions.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -188,6 +213,8 @@
     <!-- team section end -->
 
 
+
+
     <!-- footer start -->
         <?php include 'includes/footer.php' ?>
     <!-- footer end -->
@@ -201,6 +228,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- sticky -->
+    <!-- <script src="assets/js/sticky.js"></script> -->
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/aos.js"></script>
     <!-- owl carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
     <script src="assets/js/owl-carousel.js"></script>

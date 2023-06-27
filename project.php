@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- style -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -58,7 +60,7 @@
                 </ul>
             </div>
             <div class="project-boxes">
-                <div class="project-box interiors">
+                <div class="project-box interiors" >
                     <a href="project-details.php">
                         <img class="img-fluid project-img" src="assets/img/proejcts/vtrust/vtrust---1.jpg" alt="">
                         <div class="project-desc">
@@ -69,7 +71,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="project-box interiors landscape">
+                <div class="project-box interiors landscape" >
                     <a href="project-details.php">
                         <img class="img-fluid project-img" src="assets/img/proejcts/gaya sanctury/gaya-sanctury---1.jpg" alt="">
                         <div class="project-desc">
@@ -80,7 +82,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="project-box architecture">
+                <div class="project-box architecture" >
                     <a href="project-details.php">
                         <img class="img-fluid project-img" src="assets/img/proejcts/mosque/mosque--1.jpg" alt="">
                         <div class="project-desc">
@@ -102,7 +104,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="project-box interiors">
+                <div class="project-box interiors" >
                     <a href="project-details.php">
                         <img class="img-fluid project-img" src="assets/img/proejcts/vtrust/vtrust---1.jpg" alt="">
                         <div class="project-desc">
@@ -113,7 +115,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="project-box interiors landscape">
+                <div class="project-box interiors landscape" >
                     <a href="project-details.php">
                         <img class="img-fluid project-img" src="assets/img/proejcts/gaya sanctury/gaya-sanctury---1.jpg" alt="">
                         <div class="project-desc">
@@ -147,6 +149,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- project filter -->
     <script src="assets/js/filter.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/aos.js"></script>
     <!-- smooth scroll js -->
     <script src="assets/js/SmoothScrollMouseWheel.js"></script>
     <!-- main js -->

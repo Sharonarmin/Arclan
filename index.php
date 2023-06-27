@@ -16,7 +16,7 @@
 
 
   <!-- navbar start -->
-  <nav class="navbar navbar-expand-lg navbar-box arclanNavbar">
+  <nav class="navbar navbar-expand-lg navbar-box arclanNavbar" id="main-nav">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="assets/img/logo with white.png" alt=""></a>
       <div></div>
@@ -67,6 +67,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link service-pg-nav-link" href="testimonial.php">Testimonials</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link blog-nav-link" href="career.php">Career</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link blog-nav-link" href="blog.php">Blog</a>
         </li>
         <li class="nav-item">
           <a class="nav-link contact-pg-nav-link" href="contact.php">Contact Us</a>
@@ -286,14 +292,17 @@
   <!-- bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   <!-- gsap -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
   <!-- scroll trigger -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
   <!-- scroll to -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollToPlugin.min.js"></script>
+  <script src="assets/js/ScrollToPlugin.min.js"></script>
+  <!-- gsap -->
+  <script src="assets/js/gsap.js"></script>
+  <!-- sticky js -->
+  <script src="assets/js/sticky.js"></script>
   <!-- smooth scroll -->
   <script src="assets/js/SmoothScrollMouseWheel.js"></script>
-
   <!-- main js -->
   <script src="assets/js/main.js"></script>
   </div>
