@@ -39,6 +39,9 @@
             <a class="nav-link" href="testimonial.php">Testimonials</a>
           </li>
           <li class="nav-item">
+              <a class="nav-link blog-nav-link" href="blog.php">Blog</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="contact.php">Contact Us</a>
           </li>
         </ul>
@@ -50,7 +53,7 @@
 
   <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasmobile" aria-labelledby="offcanvasmobileLabel">
     <div class="offcanvas-header">
-      <img class="img-fluid" src="assets/images/logo/logo.png" alt="">
+      <div></div>
       <button type="button" class="offcanvas-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
           class="fa-solid fa-xmar">X</i></button>
     </div>
@@ -281,6 +284,13 @@
   </div>
 
   <!-- footer start -->
+
+
+  <!-- loader -->
+
+  <div class="loader-bg">
+    <span class="loader"></span>
+  </div>
 
   <script>
     document.querySelectorAll(".hp-nav-link").forEach((item) => item.classList.add('active'));

@@ -24,7 +24,7 @@
 
 
     <!-- banner section start -->
-    <div class="banner-section">
+    <div class="banner-section banner-3">
         <div class="container">
             <div class="breadcrumb-section">
                 <h3>Projects</h3>

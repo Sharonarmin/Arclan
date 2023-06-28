@@ -22,7 +22,7 @@
 
 
     <!-- banner section start -->
-        <div class="banner-section">
+    <div class="banner-section banner-5">
         <div class="container">
             <div class="breadcrumb-section">
                 <h3>Blog</h3>
@@ -36,6 +36,28 @@
         </div>
     </div>
     <!-- banner section end -->
+
+    <!-- blog details section start -->
+    <div class="blog-details-section">
+        <div class="container">
+            <div class="blog-main-img">
+                <img src="assets/img/blog/blog-1.jpg" alt="">
+            </div>
+            <div class="blog-desc">    
+                <h3>lorem ipsum dolor emit</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sequi aperiam reprehenderit, commodi ducimus veritatis cumque fugit mollitia officia consectetur ea rerum tempora labore quis corporis ipsam exercitationem ipsum laborum.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sequi aperiam reprehenderit, commodi ducimus veritatis cumque fugit mollitia officia consectetur ea rerum tempora labore quis corporis ipsam exercitationem ipsum laborum.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sequi aperiam reprehenderit, commodi ducimus veritatis cumque fugit mollitia officia consectetur ea rerum tempora labore quis corporis ipsam exercitationem ipsum laborum.
+                </p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sequi aperiam reprehenderit, commodi ducimus veritatis cumque fugit mollitia officia consectetur ea rerum tempora labore quis corporis ipsam exercitationem ipsum laborum.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sequi aperiam reprehenderit, commodi ducimus veritatis cumque fugit mollitia officia consectetur ea rerum tempora labore quis corporis ipsam exercitationem ipsum laborum.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sequi aperiam reprehenderit, commodi ducimus veritatis cumque fugit mollitia officia consectetur ea rerum tempora labore quis corporis ipsam exercitationem ipsum laborum.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- blog details section end -->
+
     
 
     <!-- footer start -->

@@ -26,7 +26,7 @@
     <!-- header end-->
 
     <!-- banner section start -->
-    <div class="banner-section">
+    <div class="banner-section banner-5">
         <div class="container">
             <div class="breadcrumb-section">
                 <h3>Blog</h3>
@@ -55,7 +55,7 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque,
                                 nulla.
                             </p>
-                            <a class="blog-btn" href="#!">Read more</a>
+                            <a class="blog-btn" href="blog-details.php">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque,
                                 nulla.
                             </p>
-                            <a class="blog-btn" href="#!">Read more</a>
+                            <a class="blog-btn" href="blog-details.php">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque,
                                 nulla.
                             </p>
-                            <a class="blog-btn" href="#!">Read more</a>
+                            <a class="blog-btn" href="blog-details.php">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque,
                                 nulla.
                             </p>
-                            <a class="blog-btn" href="#!">Read more</a>
+                            <a class="blog-btn" href="blog-details.php">Read more</a>
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@
 // scroll to top 
 var btn = $('#scrollTopButton');
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   if ($(window).scrollTop() > 300) {
     btn.addClass('show');
   } else {
@@ -18,11 +18,21 @@ $(window).scroll(function() {
   }
 });
 
-btn.on('click', function(e) {
+btn.on('click', function (e) {
   e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
+  $('html, body').animate({
+    scrollTop: 0
+  }, '300');
 });
 
+
+// loader
+
+$(document).ready(function () {
+  setTimeout(() => {
+    $('.loader-bg').remove();
+  }, 1000); // after 8 sec it will remove.
+});
 
 
 
@@ -46,11 +56,3 @@ careerInputContainer.addEventListener('focusout', (event) => {
     }
   }
 });
-
-
-
-
-
-
-
-

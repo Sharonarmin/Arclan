@@ -36,7 +36,7 @@
 
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasmobile" aria-labelledby="offcanvasmobileLabel">
         <div class="offcanvas-header">
-            <img class="img-fluid" src="assets/images/logo/logo.png" alt="">
+            <div></div>
             <button type="button" class="offcanvas-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
                     class="fa-solid fa-xmar">X</i></button>
         </div>
@@ -73,3 +73,10 @@
     <!-- scroll to top  -->
 
     <a id="scrollTopButton"><i class="fa-solid fa-arrow-up"></i></a>
+
+
+    <!-- loader -->
+
+    <div class="loader-bg">
+        <span class="loader"></span>
+    </div>

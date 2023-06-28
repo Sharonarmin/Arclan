@@ -21,7 +21,7 @@
     <!-- header end-->
 
     <!-- banner section start -->
-    <div class="banner-section">
+    <div class="banner-section banner-4">
         <div class="container">
             <div class="breadcrumb-section">
                 <h3>Contact Us</h3>
