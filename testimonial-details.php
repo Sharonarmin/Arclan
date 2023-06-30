@@ -47,25 +47,16 @@
                         <p>Civil Engineer</p>
                     </div>
                 </div>
-                <div class="col-md-9 col-12">
+                <div class="col-md-7 col-12">
                     <div class="testimonial-content">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni voluptate quia maxime
                             ratione eligendi modi, minus consectetur iusto? Magnam dolorem incidunt ratione adipisci
                             illo. Consequatur mollitia eveniet omnis incidunt.
+                            <br>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni voluptate quia maxime
                             ratione eligendi modi, minus consectetur iusto? Magnam dolorem incidunt ratione adipisci
                             illo. Consequatur mollitia eveniet omnis incidunt.
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni voluptate quia maxime
-                            ratione eligendi modi, minus consectetur iusto? Magnam dolorem incidunt ratione adipisci
-                            illo. Consequatur mollitia eveniet omnis incidunt.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni voluptate quia maxime
-                            ratione eligendi modi, minus consectetur iusto? Magnam dolorem incidunt ratione adipisci
-                            illo. Consequatur mollitia eveniet omnis incidunt.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni voluptate quia maxime
-                            ratione eligendi modi, minus consectetur iusto? Magnam dolorem incidunt ratione adipisci
-                            illo. Consequatur mollitia eveniet omnis incidunt.
                         </p>
                     </div>
                 </div>

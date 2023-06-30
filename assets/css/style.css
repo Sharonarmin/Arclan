@@ -43,6 +43,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100vh;
+  transition:  .5s ease-in-out;
 
 }
 
@@ -740,7 +741,7 @@ body {
   background-size: contain;
   background-position: center;
   cursor: pointer;
-  transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+  transition:.5s ease-in-out;
 }
 
 .options .option.active {
@@ -1042,7 +1043,7 @@ body {
   background-image: url("../img/banner/banner-4.jpg");
 }
 .banner-4 .container{
-  background-image: url("../img/banner/banner-3.jpg");
+  background-image: url("../img/banner/banner-8.jpg");
 }
 .banner-5 .container{
   background-image: url("../img/banner/banner-6.jpg");
@@ -1189,12 +1190,25 @@ div .mouse {
 .project-box {
   width: 100%;
   position: relative;
-  overflow: hidden;
-  position: relative;
   opacity: 1;
-  transition: opacity 0.3s ease-in-out;
+  transition: 0.5s ease-in-out;
   overflow: hidden;
+  z-index: 11;
 }
+
+.project-box:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00000085;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+
 
 .project-box a {
   text-decoration: none;
@@ -1215,20 +1229,24 @@ div .mouse {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: #000000ab;
-  backdrop-filter: blur( 10px );
-  -webkit-backdrop-filter: blur( 10px );
-  border-radius:5px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-  transition: 0.2s ease-in-out;
+  transition: 0.5s ease-in-out;
   opacity: 0;
+  z-index: 11;
 }
-
-
-.project-box :hover .project-desc{
+.project-box:hover::after{
   opacity: 1;
-  padding: 20px 30px;
 }
+.project-box:hover .project-desc{
+  opacity: 1;
+}
+
+
+.project-box .project-desc .project-dtls{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .project-box .project-desc .project-dtls .project-name {
   font-size: 22px;
@@ -1247,6 +1265,11 @@ div .mouse {
   color: var(--white-col);
   letter-spacing: 1px;
   text-align: center;
+}
+
+.project-box .project-desc .project-dtls img{
+  width: 18px;
+  filter: invert(100%);
 }
 
 @media only screen and (max-width:767px) {
@@ -1398,9 +1421,9 @@ div .mouse {
 
 .testimonial-section .testimonial-box {
   padding: 20px 30px;
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
   border-radius: 10px;
   margin-bottom: 20px;
+  border:1px solid #97919147;
 }
 
 .testimonial-box .top {

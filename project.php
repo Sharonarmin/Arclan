@@ -30,7 +30,7 @@
                 <h3>Projects</h3>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Projects</li>
                     </ol>
                 </nav>
@@ -67,6 +67,7 @@
                             <div class="project-dtls">
                                 <p class="project-name">V Trust Eye Care</p>
                                 <p class="project-type">Interior</p>
+                                <img src="assets/img/targerArr.svg" alt="">
                             </div>
                         </div>
                     </a>
@@ -78,6 +79,7 @@
                             <div class="project-dtls">
                                 <p class="project-name">V Trust Eye Care</p>
                                 <p class="project-type">Interior</p>
+                                <img src="assets/img/targerArr.svg" alt="">
                             </div>
                         </div>
                     </a>
@@ -89,6 +91,7 @@
                             <div class="project-dtls">
                                 <p class="project-name">Mosque</p>
                                 <p class="project-type">Interior</p>
+                                <img src="assets/img/targerArr.svg" alt="">
                             </div>
                         </div>
                     </a>
@@ -100,6 +103,7 @@
                             <div class="project-dtls">
                                 <p class="project-name">Mosque</p>
                                 <p class="project-type">Interior</p>
+                                <img src="assets/img/targerArr.svg" alt="">
                             </div>
                         </div>
                     </a>
@@ -111,6 +115,7 @@
                             <div class="project-dtls">
                                 <p class="project-name">V Trust Eye Care</p>
                                 <p class="project-type">Interior</p>
+                                <img src="assets/img/targerArr.svg" alt="">
                             </div>
                         </div>
                     </a>
@@ -122,6 +127,7 @@
                             <div class="project-dtls">
                                 <p class="project-name">V Trust Eye Care</p>
                                 <p class="project-type">Interior</p>
+                                <img src="assets/img/targerArr.svg" alt="">
                             </div>
                         </div>
                     </a>
