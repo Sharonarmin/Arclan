@@ -45,7 +45,7 @@
     <div class="about-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 col-12">
+                <div class="col-md-8 col-12">
                     <div class="abt-left">
                         <h4>Architecture | Interiors | Landscape</h4>
 
@@ -53,7 +53,7 @@
                         <p class="abt-head-para">At Arclan, we are driven by a deep passion for design that transcends time.</p>
                     </div>
                 </div>
-                <div class="col-md-7 col-12" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
+                <!-- <div class="col-md-7 col-12" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <div class="options" >
                         <div class="option active" style="Background:url(assets/arclan1.png);">
                         </div>
@@ -64,7 +64,7 @@
                         <div class="option" style="Background:url(assets/arclan4.jpg);">
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-12 mt-md-5 mt-3">
                     <p class="about-us-description">
                         We are a team headed by four principle architects with a passion for creating stunning,
@@ -80,6 +80,8 @@
                         collaboration, and we work closely with our clients every step of the way to ensure their
                         satisfaction.
                     </p>
+                </div>
+                <div class="col-md-8 col-12 mt-md-2 mt-2">
                     <p class="about-us-description">
                         Our portfolio is a testament to our expertise and versatility. Whether it's a modern, minimalist
                         home or a sprawling commercial complex, we have the skills and experience to tackle any project.
@@ -88,11 +90,15 @@
                         We believe that architecture has the power to transform lives, and we are honored to be a part
                         of this transformative process. Our team is passionate about what we do, and we are committed to
                         pushing the boundaries of design to create spaces that inspire and delight.
-                    </p>
-                    <p class="about-us-description">
+                        <br>
                         Thank you for considering our firm for your architectural needs. We look forward to the
                         opportunity to work with you and bring your vision to life.
                     </p>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="counter--div">
+                        <div class="counter-div"><span class="counter">7</span>Years <br> Experience</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -240,8 +246,22 @@
     <script src="assets/js/image-reveal.js"></script>
     <!-- smooth scroll js -->
     <script src="assets/js/SmoothScrollMouseWheel.js"></script>
+    <!-- counter -->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.countup.js"></script>
     <!-- main js -->
     <script src="assets/js/main.js"></script>
+
+    <!-- counter -->
+    <script>
+        $('.counter').countUp(
+            {
+            delay: 5,
+            time: 1000
+            }
+        );
+    </script>
+    <!-- counter end -->
 
 </body>
 

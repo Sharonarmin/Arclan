@@ -2304,3 +2304,41 @@ footer {
   }
 }
 
+
+
+/* about page counter */
+
+.counter--div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter--div .counter-div span{
+  font-size: 160px;
+  font-weight: 800;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: var(--white-col);
+  margin-right: 20px;
+
+}
+.counter--div .counter-div{
+  font-size: 14px;
+  font-weight: 400;
+  
+}
+
+
+
+@media only screen and (max-width:767px){
+  .counter--div .counter-div span{
+    font-size: 74px;
+  }
+}
