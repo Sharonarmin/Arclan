@@ -47,7 +47,7 @@
                 <div class="col-md-4 col-12">
                     <!-- Blog post-->
                     <div class="blog-card" data-aos="fade-up">
-                        <a href="#!"><img class="card-img-top" src="assets/img/blog/blog-1.jpg" alt="..." /></a>
+                        <a href="blog-details.php"><img class="card-img-top" src="assets/img/blog/blog-1.jpg" alt="..." /></a>
                         <div class="card-body">
                             <h2 class="card-title h4">Lorem ipsum dolor</h2>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
@@ -62,7 +62,7 @@
                 <div class="col-md-4 col-12">
                     <!-- Blog post-->
                     <div class="blog-card" data-aos="fade-up">
-                        <a href="#!"><img class="card-img-top" src="assets/img/blog/blog-2.jpg" alt="..." /></a>
+                        <a href="blog-details.php"><img class="card-img-top" src="assets/img/blog/blog-2.jpg" alt="..." /></a>
                         <div class="card-body">
                             <h2 class="card-title h4">Lorem ipsum dolor</h2>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
@@ -77,7 +77,7 @@
                 <div class="col-md-4 col-12">
                     <!-- Blog post-->
                     <div class="blog-card" data-aos="fade-up">
-                        <a href="#!"><img class="card-img-top" src="assets/img/blog/blog-3.jpg" alt="..." /></a>
+                        <a href="blog-details.php"><img class="card-img-top" src="assets/img/blog/blog-3.jpg" alt="..." /></a>
                         <div class="card-body">
                             <h2 class="card-title h4">Lorem ipsum dolor</h2>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
@@ -92,7 +92,7 @@
                 <div class="col-md-4 col-12">
                     <!-- Blog post-->
                     <div class="blog-card" data-aos="fade-up">
-                        <a href="#!"><img class="card-img-top" src="assets/img/blog/blog-1.jpg" alt="..." /></a>
+                        <a href="blog-details.php"><img class="card-img-top" src="assets/img/blog/blog-1.jpg" alt="..." /></a>
                         <div class="card-body">
                             <h2 class="card-title h4">Lorem ipsum dolor</h2>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis

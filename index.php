@@ -66,7 +66,7 @@
           <a class="nav-link about-pg-nav-link" href="about.php">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link project-pg-nav-link" href="projects.php">Projects</a>
+          <a class="nav-link project-pg-nav-link" href="project.php">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link service-pg-nav-link" href="testimonial.php">Testimonials</a>
