@@ -205,7 +205,7 @@
   <div class="panel hp-service-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-12">
+        <div class="col-lg-4 col-md-12">
           <div class="hp-service-box">
             <img src="assets/img/Architecture1.jpg" class="img-fluid service-main-card-img" alt="">
             <div class="service-dtls-box">
@@ -214,7 +214,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-12">
+        <div class="col-lg-4 col-md-12">
           <div class="hp-service-box">
             <img src="assets/img/Interiors-1.jpg" class="img-fluid service-main-card-img" alt="">
             <div class="service-dtls-box">
@@ -223,7 +223,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-12">
+        <div class="col-lg-4 col-md-12">
           <div class="hp-service-box">
             <img src="assets/img/Landscape1.jpg" class="img-fluid service-main-card-img" alt="">
             <div class="service-dtls-box">
