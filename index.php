@@ -17,8 +17,8 @@
 
   <!-- navbar start -->
   <nav class="navbar navbar-expand-lg navbar-box arclanNavbar" id="main-nav">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="assets/img/logo with white.png" alt=""></a>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="assets/img/logo with white.png" alt="" id="arclanLogo"></a>
       <div></div>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" href="#offcanvasmobile"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

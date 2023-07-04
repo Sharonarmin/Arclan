@@ -50,7 +50,7 @@
                         </div>
                         <div class="job-feature-box">
                             <i class="fa-solid fa-clock"></i>
-                            <p>100% Remote</p>
+                            <p>Full Time</p>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                         </div>
                         <div class="job-feature-box">
                             <i class="fa-solid fa-clock"></i>
-                            <p>100% Remote</p>
+                            <p>Full Time</p>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                         </div>
                         <div class="job-feature-box">
                             <i class="fa-solid fa-clock"></i>
-                            <p>100% Remote</p>
+                            <p>Full Time</p>
                         </div>
                     </div>
                 </div>
@@ -131,6 +131,11 @@
                         <div class="col-md-6 col-12">
                             <div class="career-input-box">
                                 <input  type="file" class="career-input">
+                            </div> 
+                        </div>
+                        <div class="col-12">
+                            <div class="career-text-box">
+                                <textarea rows="4" placeholder="Message.."></textarea>
                             </div> 
                         </div>
                         <div class="col-12">
